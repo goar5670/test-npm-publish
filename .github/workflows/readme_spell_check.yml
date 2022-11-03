@@ -6,9 +6,7 @@ jobs:
   Spell-Check:
     runs-on: ubuntu-latest
     steps:
-      - name: Spell Check 📃
-        uses: mh61503891/action-paper-aspell@master
-        env:
-          ASPELL_LANG: en
-          fASPELL_MODE: markdown
-          ASPELL_FILES: /README.md
+      - name: Install Aspell
+        run: apt-get update && apt-get install -y aspell aspell-en
+      - name: Spell Check
+        run: aspell check -mode=markdown -lang=en README.md
