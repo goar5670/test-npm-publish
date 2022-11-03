@@ -11,4 +11,4 @@ jobs:
         env:
           ASPELL_LANG: en
           fASPELL_MODE: markdown
-          ASPELL_FILES: README.md
+          ASPELL_FILES: /README.md
