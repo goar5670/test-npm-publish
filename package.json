@@ -1,0 +1,19 @@
+{
+  "name": "eqsp-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goar5670/EQSP-lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goar5670/EQSP-lab/issues"
+  },
+  "homepage": "https://github.com/goar5670/EQSP-lab#readme"
+}
