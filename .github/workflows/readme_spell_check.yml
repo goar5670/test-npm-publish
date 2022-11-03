@@ -1,4 +1,3 @@
-@@ -0,0 +1,13 @@
 name: README Spell Check
 
 on: [push]
