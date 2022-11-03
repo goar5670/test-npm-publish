@@ -8,5 +8,6 @@ jobs:
     steps:
       - name: Install Aspell
         run: sudo apt-get update && sudo apt-get install -y aspell aspell-en
+      - uses: actions/checkout@v3
       - name: Spell Check
         run: aspell -c README.md
