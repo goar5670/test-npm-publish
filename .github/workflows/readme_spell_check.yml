@@ -1,0 +1,13 @@
+name: README Spell Check
+
+on: [push]
+
+jobs:
+  Spell-Check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Spell Check 📃
+        uses: reitermarkus/aspell@main
+        with:
+          files: README.md
+          args: --lang=en_GB --mode=markdown
