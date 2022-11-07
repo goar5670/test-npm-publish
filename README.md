@@ -6,11 +6,11 @@ This project is made for the Ensuing Quality in Software Project (EQSP) course a
 
 ### Coding Style Guide
 
-An exetensive JavaScript code style guidelines in markdown.
+An extensive JavaScript code style guidelines in markdown.
 
 ### Github Action for NPM deployment
 
-A Github action that can be manually called that depolys JavaScript library to [NPM](https://www.npmjs.com/).
+A Github action that can be manually called that deploys JavaScript library to [NPM](https://www.npmjs.com/).
 
 ### Github Action for Markdown Spell Check
 

@@ -1,6 +1,6 @@
 # JavaScript Code Style Guidelines
 
-Coding conventions ar style guidelines for programming. They typically cover:
+Coding conventions are style guidelines for programming. They typically cover:
 
 * Naming and declaration rules for variables and functions.
 * Rules for the use of white space, indentation, and comments.
