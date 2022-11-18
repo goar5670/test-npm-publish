@@ -1,24 +1,13 @@
-
 matrix:
 - name: Markdown
   aspell:
     lang: en
   dictionary:
+    wordlists:
+    - en-custom.txt
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
-      ignores:
-      - Khaled
-      - Nafee
-      - Sherif
-      - Adel
-      - Mahmoud
-      - ElDakroury
-      - Karim
-      - Github
-      - NPM
-      - EQSP
-      - Innopolis
   - pyspelling.filters.html:
       comments: false
       ignores:
