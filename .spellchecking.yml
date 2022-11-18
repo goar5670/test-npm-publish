@@ -12,6 +12,17 @@ matrix:
       ignores:
       - code
       - pre
+      - Khaled
+      - Nafee
+      - Sherif
+      - Adel
+      - Mahmoud
+      - ElDakroury
+      - Karim
+      - Github
+      - NPM
+      - EQSP
+      - Innopolis
   sources:
   - '**/*.md'
   default_encoding: utf-8
